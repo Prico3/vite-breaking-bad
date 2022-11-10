@@ -14,7 +14,7 @@ export default {
 
 <template>
 
-    <div class="ms_container mt-5 flex">
+    <div class="ms_container mt-5 row row-cols-4 p-5">
         <div class="col " v-for="item in store.characters" :key="item.id">
             <cardApp :character="item" />
         </div>
